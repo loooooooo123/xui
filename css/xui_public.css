@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.xui_content .button_yellow,
+.xui_content .button_blue,
+.xui_content .button_green,
+.xui_content .button_red,
+.xui_content .button_green50,
+.xui_content .button_red50,
+.xui_content .button_orange,
+.xui_content .button_orange50,
+.xui_content .button_orange30,
+.xui_content .button_pink{
+    padding:5px 10px;
+    background-color: palegoldenrod;
+    color:rgb(145, 137, 29);
+    border-radius: 4px;
+}
+.xui_content .button_yellow:active{
+    background-color: rgb(214, 210, 155);
+}
+.xui_content .button_blue{
+    background-color: rgb(50, 128, 230);
+    color:rgb(12, 51, 70);
+}
+.xui_content .button_blue:active{
+    background-color: rgb(37, 94, 168);
+    color:rgb(12, 51, 70);
+}
+.xui_content .button_green50{
+    background-color: rgb(50, 230, 215);
+    color:rgb(29, 107, 117);
+}
+.xui_content .button_green50:active{
+    background-color: rgb(38, 170, 159);
+    color:rgb(29, 107, 117);
+}
+.xui_content .button_red{
+    background-color: rgb(230, 50, 89);
+    color:rgb(82, 15, 30);
+}
+.xui_content .button_red:active{
+    background-color: rgb(168, 37, 65);
+    color:rgb(82, 15, 30);
+}
+.xui_content .button_red50{
+    background-color: #990066;
+}
+.xui_content .button_red50:active{
+    background-color: #5f0240;
+}
+.xui_content .button_green{
+    background-color: #006633;
+}
+.xui_content .button_green:active{
+    background-color: #013a1d;
+}
+.xui_content .button_orange{
+    background-color: #FF6633;
+}
+.xui_content .button_orange:active{
+    background-color: rgb(201, 81, 41);
+}
+.xui_content .button_orange50{
+    background-color: #FF6600;
+}
+.xui_content .button_orange50:active{
+    background-color: rgb(185, 76, 3);
+}
+.xui_content .button_orange30{
+    background-color: #FF9933;
+}
+.xui_content .button_orange30:active{
+    background-color: rgb(209, 126, 44);
+}
+.xui_content .button_pink{
+    background-color: #FF9999;
+}
+.xui_content .button_pink:active{
+    background-color: rgb(209, 124, 124);
+}
+
+.xui_content .buttonW{
+    color:white;
+}

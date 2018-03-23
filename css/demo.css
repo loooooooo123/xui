@@ -1,0 +1,42 @@
+.xui_content{
+    margin:20px;
+}
+.block1{
+    width:2px;
+    height:20px;
+    background-color: rgb(80, 202, 161);
+    margin-right:15px;
+}
+.xui_content .div1{
+    border-bottom: 1px solid #f5f4f4;
+    padding-bottom:10px;
+}
+.xui_content .divMarleft{
+    margin-left:35px;
+}
+.xui_content .relative1,.xui_content .relative2{
+    width:500px;
+    height:65px;
+    border:1px solid gray;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+.xui_content .w50{
+    line-height:22px;
+}
+.xui_content .relative2{
+    height:100px;
+}
+.xui_content .circle1{
+    width:70px;
+    height:70px;
+    background:rebeccapurple;
+}
+.xui_content .div2{
+    width:200px;
+    background:rgb(152, 207, 233);
+    padding:5px;
+}
+.xui_content .pre1{
+    width:300px;
+}

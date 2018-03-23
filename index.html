@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" xui_content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" xui_content="ie=edge">
+    <title>xui——基础样式——演示文档</title>
+
+    <!-- 基础css -->
+    <link rel="stylesheet" href="css/xui.css"/>
+    <!-- 基础css -->
+
+    <!-- JS组件css -->
+    <link rel="stylesheet" href="css/xuiJS.css"/>
+    <!-- JS组件css -->
+
+    <!-- 个性化需求css——美化 -->
+    <link rel="stylesheet" href="css/xui_public.css"/>
+    <!-- 个性化需求css——美化 -->
+
+    <!-- 美化css，只用做文档演示 -->
+    <link rel="stylesheet" href="css/demo.css"/>
+    <!-- 美化css，只用做文档演示 -->
+</head>
+<body>
+
+    <div class="xui_content">
+        <h2>xui——基础样式——演示文档：</h2>
+        <div class="div div1"><div class="left block1">&nbsp;</div>h1-h6是没有样式的，因为设置边距和字体大小并没有任何无意义，大部分还是需要边距的</div>
+        <div class="div div1"><div class="left block1">&nbsp;</div>特别说明：为了不影响其他样式库，或者造成样式冲突，只有添加.xui_content类名下的元素才会被影响到</div>
+        <div class="div div1"><div class="left block1">&nbsp;</div>.div类上边距为20px</div>
+        <div class="div div1"><div class="left block1 font">&nbsp;</div>.font字体大小为14px</div>
+        <div class="div div1"><div class="left block1 font">&nbsp;</div>
+        .font16、.font18、.font20、.font24、.font28 字体大小为
+            <span class="font16">16px</span>、
+            <span class="font18">18px</span>、
+            <span class="font20">20px</span>，
+            <span class="font24">24px</span>，
+            <span class="font28">28px</span>，
+            设置在a标签也是一样
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">.left为左浮动</div>
+            <div class="left divMarleft">.overflow为overflow: hidden;</div>
+            <div class="right">.right为右浮动</div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="relative1 pr hidden">
+                <div class="center w50">.center为水平垂直都居中，注意父层必须加上.pr类</div>
+            </div>
+            <div class="relative1 pr hidden">
+                <div class="xcenter">.xcenter为水平居中，注意父层必须加上.pr类</div>
+            </div>
+            <div class="relative1 pr hidden">
+                <div class="ycenter">.ycenter为垂直居中，注意父层必须加上.pr类</div>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <span>.w100为宽度100%</span>
+                <span>.h100为高度100%</span>
+                <span>.pa为绝对定位</span>
+                <span>.pr为相对定位</span>
+                <span>.pf为fixed定位</span>
+                <span>.block为display:block;</span>
+                <span>.hidden为display:hidden;</span>
+                <span>.c为clear:both;</span>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <span>.cap为首字母大写</span>
+                <span class="cap">english</span>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <span>.upper为全部字母大写</span>
+                <span class="upper">english</span>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <span>.lower为全部字母小写</span>
+                <span class="lower">ENGLISH</span>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <button class="button font">.button为宽自动，5px内边距按钮，无颜色、边框</button>
+                <button class="button divMarleft font">请使用.xui_content .类名 覆盖此按钮样式，来定义颜色和边框，请使用.font类改变按钮字体大小</button>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left">
+                <span>加上.select类为美化后的select下拉框</span>
+                <select name="" id="" class="select">
+                    <option value="1">选项1</option>
+                    <option value="2">选项222</option>
+                    <option value="3">选项333333</option>
+                </select>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left font">加上.circle类为圆形</div>
+            <div class="relative2 pr hidden">
+                <div class="left center circle circle1 text">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left font">加上.text类为文本自动换行与对齐</div>
+            <div class="left font div2">aaaaaaaa多发手aaaaaaa多发手a动aaa阀手a动a阀aaaaaaaaa发达发</div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left font">加上.opacity0类为兼容IE的透明度为0</div>
+            <div class="left font divMarleft opacity100">加上.opacity100类为兼容IE的透明度为100</div>
+            <div class="left font divMarleft opacity50">加上.opacity50类为兼容IE的透明度为50</div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left font">
+                <button class="button font button_yellow">个性化button黄色100%</button>
+                <button class="button font button_blue">个性化button蓝色100%</button>
+                <button class="button font button_green50">个性化button绿色50%</button>
+                <button class="button font button_red">个性化button红色100%</button>
+                <button class="button font button_red50 buttonW">个性化button红色50%</button>
+                <button class="button font button_blue buttonW">加上.buttonW类为白色文字</button>
+            </div>
+        </div>
+        <div class="div div1 overflow">
+            <div class="left block1 font">&nbsp;</div>
+            <div class="left font">
+                <button class="button font button_green buttonW">个性化button绿色100%</button>
+                <button class="button font button_orange buttonW">个性化button橙色100%</button>
+                <button class="button font button_orange50 buttonW">个性化button橙色50%</button>
+                <button class="button font button_orange30 buttonW">个性化button橙色30%</button>
+                <button class="button font button_pink buttonW">个性化button粉红色100%</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- 工具库javascript -->
+    <script src="js/xui.js"></script>
+    <script src="js/xuiUtils.js"></script>
+    <!-- 工具库javascript -->
+</body>
+</html>
